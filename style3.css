@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+.x{
+        margin:5px;
+        background-image:linear-gradient(90deg,black,rgb(84, 84, 84));
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        border: solid rgb(6, 6, 6) 2px;
+    }
+    button{
+        cursor: pointer;
+    }
+    .z{
+        position: fixed;
+        left: 45%;
+        bottom: 20px;
+        height: 30px;
+        width: 90px;
+        background-color: rgb(2, 2, 2);
+        border-radius: 40px;
+        color: white;
+    }
+    ::placeholder{
+        font-size: smaller;
+    }
+    form
+    {
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .container{
+        background-color: rgb(137, 207, 236);
+        position: absolute;
+        left: 33%;
+        width: 500px;
+        top: 100px;
+        border-radius: 25px;
+        border-color: aqua;
+        color: rgb(0, 0, 0);
+        align-items: center;
+    }
+    .z:hover{
+        color: rgb(10, 10, 10);
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+    }

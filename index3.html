@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo</title>
+        <a href="index.html"><button>Basic web page</button></a>
+        <a href="index2.html"><button>Grid Layout</button></a>
+        <a href="index3.html"><button>Form Webpage</button></a>
+        <link rel="stylesheet" href="style3.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="x">
+            <h1>Signin</h1>
+        </div>
+        <div class="container">
+            <form>
+                <label for="firstname"><b>First name:</b></label>
+                <br><br>
+                <input type="text" name="firstname"  placeholder="firstname" required>
+                <br><br>
+                <label for="lastname"><b>Last name:</b> </label>
+                <br><br>
+                <input type="text" name="lastname" placeholder="lastname" required>
+                <br><br>
+                <label for="email"><b>E-mail:</b> </label>
+                <br><br>
+                <input type="email" name="email" placeholder="e-mail" required>
+                <br><br>
+                <label for="password"><b>Password: </b></label>
+                <br><br>
+                <input type="password" name="password" placeholder="password" required>
+                <br><br>
+                <label for="Gender"><b>Gender:</b></label>
+                <br><br>
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female">Female</label> 
+                <br><br>
+                <label for="country"><b>Country: </b></label>
+                <br><br>
+                <select name="country" id="country">
+                    <option>Select..</option>
+                    <option value="India">India</option>
+                    <option value="usa">Germany</option>
+                    <option value="australia">Japan</option>
+                    <option value="australia">Europe</option>
+                    <option value="australia">Pakistan</option>
+                    <option value="australia">Iran</option>
+                </select>
+                <br><br>
+                <label for="message"><b>Message:</b></label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                <br><br>
+                <input class="z" type="submit" value="Login!">
+          </form>
+        </div>
+    </body>
+</html>
